@@ -10,28 +10,32 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"  media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="{{asset('css/estilo.css')}}">
 </head>
 <body>
 
 <!-- Menu -->
-<nav>
-    <div class="nav-wrapper">
-        <a href="#!" class="brand-logo">Logo</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-            <li><a href="#">PÁGINA INCIAL</a></li>
-            <li><a href="#">PROJETO</a></li>
-            <li><a href="#">ORGANIZAÇÃO</a></li>
-            <li><a href="#">SCRATCH DAY UEA</a></li>
-            <li><a href="#">INSCRIÇÃO</a></li>
-        </ul>
-    </div>
-</nav>
+<div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">PÁGINA INICIAL</a></li>
+                <li><a href="#">PROJETO</a></li>
+                <li><a href="#">ORGANIZAÇÃO</a></li>
+                <li><a href="#">SCRATCH DAY UEA</a></li>
+                <li><a href="#">INSCRIÇÃO</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
 
 <ul class="sidenav" id="mobile-demo">
-    <li><a href="#">PÁGINA INCIAL</a></li>
+    <li><a href="#">PÁGINA INICIAL</a></li>
     <li><a href="#">PROJETO</a></li>
     <li><a href="#">ORGANIZAÇÃO</a></li>
     <li><a href="#">SCRATCH DAY UEA</a></li>

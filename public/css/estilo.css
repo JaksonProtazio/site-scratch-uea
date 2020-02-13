@@ -1,3 +1,6 @@
+html,body,h1,h2,h3,h4,h5,h6,p,a{
+    font-family: 'Heebo', sans-serif;
+}
 body {
     display: flex;
     min-height: 100vh;
@@ -6,4 +9,52 @@ body {
 
 main {
     flex: 1 0 auto;
+}
+
+h1, h2{
+    margin: 0;
+}
+
+/* Menu */
+nav{
+    background-color: transparent;
+    border-bottom: 1px solid white; 
+}
+
+.nav-wrapper{
+    background-color: transparent;
+}
+
+/* Banner */
+#bg-banner{
+    min-height: 100vh;
+    margin-top: -64px;
+    background-image: url("../img/capa.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#filtro-banner{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(56, 70, 165, 0.7);
+}
+
+#txt-contador{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+#titulo-pagina-princ{
+    font-weight: bold;
+}
+
+#txt-sub{
+    font-size: 15pt;
+    font-weight: normal;
 }

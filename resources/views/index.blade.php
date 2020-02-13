@@ -6,17 +6,19 @@
 <main>
     <section id="banner">
         <div id="filtro-banner">
+            <div id="txt-contador">
+                <div id="txt-banner">
+                    <h1 id="titulo-pagina-princ">Curso Scratch 2020</h1>
+                    <p id="txt-sub">Início em 25 de Março - Escola Superior de Tecnologia</p>
+                </div>
+                <div id="contador">
+                    <div class="bg-contador" id="hora">120</div>
+                    <div class="bg-contador" id="minuto">120</div>
+                    <div class="bg-contador" id="segundo">120</div>
+                </div>
+            </div>  
         </div>
-        <div id="bg-banner">
-            <div id="txt-banner">
-                <h1>Curso Scratch 2020</h1>
-                <h6>Início em 25 de Março - Escola Superior de Tecnologia</h6>
-            </div>
-            <div id="contador">
-                <div class="bg-contador" id="hora">120</div>
-                <div class="bg-contador" id="minuto">120</div>
-                <div class="bg-contador" id="segundo">120</div>
-            </div>
+        <div id="bg-banner"> 
         </div>
     </section>
     <section id="resumo-scratch">
