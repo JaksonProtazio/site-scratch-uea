@@ -56,9 +56,42 @@
         <div class="container">
             <h2 class="titulos-index">Ferramentas Utilizadas</h2>
             <div class="cards">
-                <div id="scratch">Scratch</div>
-                <div id="photoshop">Photoshop</div>
-                <div id="illustrstor">Illustrator</div>
+                <div class="row">
+                    <div class="col xl4">
+                        <div class="card card-ferramenta">
+                            <div class="card-image">
+                                <img src="{{asset('img/ferramentas/scratch.png')}}" class="responsive-img">
+                                <span class="card-title">Card Title</span>
+                            </div>
+                            <div class="card-content">
+                                <p class="nome-ferramenta">Scratch</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col xl4">
+                        <div class="card card-ferramenta">
+                            <div class="card-image">
+                                <img src="{{asset('img/ferramentas/photoshop.png')}}" class="responsive-img">
+                                <span class="card-title">Card Title</span>
+                            </div>
+                            <div class="card-content">
+                                <p class="nome-ferramenta">Photoshop</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col xl4">
+                        <div class="card card-ferramenta">
+                            <div class="card-image">
+                                <img src="{{asset('img/ferramentas/illustrator.png')}}" class="responsive-img">
+                            </div>
+                            <div class="card-content">
+                                <p class="nome-ferramenta">Illustrator</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

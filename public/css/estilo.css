@@ -143,6 +143,16 @@ nav{
 }
 
 #img-resumo img{
-    /*max-width: 400px;*/
+    border-radius: 10px;
+}
+
+/******* Ferramentas Utilizadas **********/
+.nome-ferramenta{
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-ferramenta{
     border-radius: 10px;
 }
