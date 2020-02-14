@@ -57,7 +57,7 @@
             <h2 class="titulos-index">Ferramentas Utilizadas</h2>
             <div class="cards">
                 <div class="row">
-                    <div class="col xl4">
+                    <div class="col xl4 l4 m4 s12">
                         <div class="card card-ferramenta">
                             <div class="card-image">
                                 <img src="{{asset('img/ferramentas/scratch.png')}}" class="responsive-img">
@@ -69,7 +69,7 @@
                         </div>
                     </div>
 
-                    <div class="col xl4">
+                    <div class="col xl4 l4 m4 s12">
                         <div class="card card-ferramenta">
                             <div class="card-image">
                                 <img src="{{asset('img/ferramentas/photoshop.png')}}" class="responsive-img">
@@ -81,7 +81,7 @@
                         </div>
                     </div>
 
-                    <div class="col xl4">
+                    <div class="col xl4 l4 m4 s12">
                         <div class="card card-ferramenta">
                             <div class="card-image">
                                 <img src="{{asset('img/ferramentas/illustrator.png')}}" class="responsive-img">
