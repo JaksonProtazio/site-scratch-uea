@@ -6,17 +6,30 @@
 <main>
     <section id="banner">
         <div id="filtro-banner">
-            <div id="txt-contador">
-                <div id="txt-banner">
-                    <h1 id="titulo-pagina-princ">Curso Scratch 2020</h1>
-                    <p id="txt-sub">Início em 25 de Março - Escola Superior de Tecnologia</p>
+            <div class="container">
+                <div class="row">
+                    <div id="txt-contador" class="col s12">
+                        <div id="txt-banner">
+                            <h1 id="titulo-pagina-princ">Curso Scratch 2020</h1>
+                            <p id="txt-sub">Início em 25 de Março - Escola Superior de Tecnologia</p>
+                        </div>
+                        <div id="contador">
+                                <div class="bg-contador" id="hora"><p class="txt-number-cont">120</p></div>
+                                <div class="bloco-sep">
+                                    <div class="separador"></div>
+                                    <div class="separador"></div>
+                                </div>
+                                <div class="bg-contador" id="minuto"><p class="txt-number-cont">120</p></div>
+                                <div class="bloco-sep">
+                                    <div class="separador"></div>
+                                    <div class="separador"></div>
+                                </div>
+                                <div class="bg-contador" id="segundo"><p class="txt-number-cont">120</p></div>     
+                            </div>
+                        </div>
+                    </div> 
                 </div>
-                <div id="contador">
-                    <div class="bg-contador" id="hora">120</div>
-                    <div class="bg-contador" id="minuto">120</div>
-                    <div class="bg-contador" id="segundo">120</div>
-                </div>
-            </div>  
+            </div> 
         </div>
         <div id="bg-banner"> 
         </div>
