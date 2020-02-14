@@ -60,11 +60,11 @@
                     <div class="col xl4 l4 m4 s12">
                         <div class="card card-ferramenta">
                             <div class="card-image">
-                                <img src="{{asset('img/ferramentas/scratch.png')}}" class="responsive-img">
+                                <img src="{{asset('img/ferramentas/scratch2.png')}}" class="responsive-img">
                                 <span class="card-title">Card Title</span>
                             </div>
                             <div class="card-content">
-                                <p class="nome-ferramenta">Scratch</p>
+                                <p class="nome-ferramenta">Scratch 3.0</p>
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
                     <div class="col xl4 l4 m4 s12">
                         <div class="card card-ferramenta">
                             <div class="card-image">
-                                <img src="{{asset('img/ferramentas/photoshop.png')}}" class="responsive-img">
+                                <img src="{{asset('img/ferramentas/photoshop2.png')}}" class="responsive-img">
                                 <span class="card-title">Card Title</span>
                             </div>
                             <div class="card-content">
@@ -84,7 +84,7 @@
                     <div class="col xl4 l4 m4 s12">
                         <div class="card card-ferramenta">
                             <div class="card-image">
-                                <img src="{{asset('img/ferramentas/illustrator.png')}}" class="responsive-img">
+                                <img src="{{asset('img/ferramentas/illustrator2.png')}}" class="responsive-img">
                             </div>
                             <div class="card-content">
                                 <p class="nome-ferramenta">Illustrator</p>
