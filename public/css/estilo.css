@@ -156,3 +156,21 @@ nav{
 .card-ferramenta{
     border-radius: 10px;
 }
+
+/******* Footer **********/
+.txt-footer{
+    text-align: center;
+}
+
+#copyright{
+    text-align: center;
+    margin: 0;  
+}
+
+footer.page-footer{
+    background-color: #3846A5;
+}
+
+.page-footer .footer-copyright{
+    background-color: rgba(19, 36, 62, 0.452);
+}
