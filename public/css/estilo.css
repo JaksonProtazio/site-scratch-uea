@@ -20,18 +20,39 @@ h1, h2{
 nav{
     background-color: transparent;
     border-bottom: 1px solid white; 
+    transition: 1s ease-in;
+}
+
+@media(min-width: 994px){
+    nav{
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+
+.modificar{
+    background-color: #3846A5;
+    border: none;
 }
 
 .nav-wrapper{
     background-color: transparent;
 }
 
+.sidenav{
+    background-color: rgb(150, 163, 247);
+}
+
+.sidenav li a{
+    font-weight: bold;
+}
+
 /******* Index ***********/
 .titulos-index{
     text-align: center;
     font-weight: bold;
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding-top: 100px;
+    padding-bottom: 40px;
 }
 
 @media(max-width: 420px){

@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="{{asset('css/estilo.css')}}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="{{asset('js/scrollnav.js')}}"></script>
 </head>
 <body>
 
