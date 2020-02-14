@@ -1,3 +1,4 @@
+/******** Configurações gerais ************/
 html,body,h1,h2,h3,h4,h5,h6,p,a{
     font-family: 'Heebo', sans-serif;
 }
@@ -15,8 +16,7 @@ h1, h2{
     margin: 0;
 }
 
-
-/********* Menu ***********/
+/********* Menu-Index ***********/
 nav{
     background-color: transparent;
     border-bottom: 1px solid white; 
@@ -24,6 +24,20 @@ nav{
 
 .nav-wrapper{
     background-color: transparent;
+}
+
+/******* Index ***********/
+.titulos-index{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+@media(max-width: 420px){
+    .titulos-index{
+        font-size: 30pt;
+    }
 }
 
 
@@ -115,4 +129,20 @@ nav{
     height: 8px;
     background-color: white;
     border-radius: 100%;
+}
+
+/******* Scratch UEA **********/
+#txt-resumo{
+    text-align: justify;
+    font-weight: 600;
+}
+
+#img-resumo{
+    display: flex;
+    justify-content: center;
+}
+
+#img-resumo img{
+    /*max-width: 400px;*/
+    border-radius: 10px;
 }

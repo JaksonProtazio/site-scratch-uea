@@ -4,6 +4,7 @@
 
 @section('conteudo')
 <main>
+    <!-- Seção Banner -->
     <section id="banner">
         <div id="filtro-banner">
             <div class="container">
@@ -34,21 +35,31 @@
         <div id="bg-banner"> 
         </div>
     </section>
+
+    <!-- Seção Scratch UEA -->
     <section id="resumo-scratch">
-        <h2 class="titulos-index">Scratch UEA</h2>
-        <div id="txt-resumo">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur dolores officia incidunt distinctio facere, eveniet atque reprehenderit laborum, repellat cum rem hic dicta? Itaque quisquam ut exercitationem dolorem dolorum! Maiores!</p>
-        </div>
-        <div id="img-resumo">
-            <img src="#" alt="">
+        <div class="container">
+            <h2 class="titulos-index">Scratch UEA</h2>
+            <div class="row">
+                <div id="txt-resumo" class="col xl6 l6 m12 s12">
+                    <p>O curso Scratch acontece no primeiro semestre do ano e tem como público alvo calouros dos cursos de computação da UEA. O curso ocorre na Escola Superior de Tecnologia (EST) – UEA.  </p>
+                </div>
+                <div id="img-resumo" class="col xl6 l6 m12 s12">
+                    <img src="{{asset('img/curso.png')}}" alt="Curso de Scratch" class="responsive-img">
+                </div>
+            </div>
         </div>
     </section>
+
+    <!-- Seção Ferramentas Utilizadas -->
     <section id="ferramentas-curso">
-        <h2 class="titulos-index">Ferramentas Utilizadas</h2>
-        <div class="cards">
-            <div id="scratch">Scratch</div>
-            <div id="photoshop">Photoshop</div>
-            <div id="illustrstor">Illustrator</div>
+        <div class="container">
+            <h2 class="titulos-index">Ferramentas Utilizadas</h2>
+            <div class="cards">
+                <div id="scratch">Scratch</div>
+                <div id="photoshop">Photoshop</div>
+                <div id="illustrstor">Illustrator</div>
+            </div>
         </div>
     </section>
 </main>
