@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="{{asset('css/estilo.css')}}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="{{asset('js/scrollnav.js')}}"></script>
+    <script src="{{asset('js/jquery.countdown.min.js')}}"></script>
 </head>
 <body>
 
@@ -29,7 +30,7 @@
                 <li><a href="#">PROJETO</a></li>
                 <li><a href="#">ORGANIZAÇÃO</a></li>
                 <li><a href="#">SCRATCH DAY UEA</a></li>
-                <li><a href="#">INSCRIÇÃO</a></li>
+                <li id="inscricao"><a href="#">INSCRIÇÃO</a></li>
             </ul>
         </div>
     </nav>
@@ -41,6 +42,6 @@
     <li><a href="#">PROJETO</a></li>
     <li><a href="#">ORGANIZAÇÃO</a></li>
     <li><a href="#">SCRATCH DAY UEA</a></li>
-    <li><a href="#">INSCRIÇÃO</a></li>
+    <li id="inscricao"><a href="#">INSCRIÇÃO</a></li>
 </ul>
 <!------------>

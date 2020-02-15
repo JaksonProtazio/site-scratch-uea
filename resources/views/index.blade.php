@@ -15,18 +15,6 @@
                             <p id="txt-sub">Início em 25 de Março - Escola Superior de Tecnologia</p>
                         </div>
                         <div id="contador">
-                                <div class="bg-contador" id="hora"><p class="txt-number-cont">120</p></div>
-                                <div class="bloco-sep">
-                                    <div class="separador"></div>
-                                    <div class="separador"></div>
-                                </div>
-                                <div class="bg-contador" id="minuto"><p class="txt-number-cont">120</p></div>
-                                <div class="bloco-sep">
-                                    <div class="separador"></div>
-                                    <div class="separador"></div>
-                                </div>
-                                <div class="bg-contador" id="segundo"><p class="txt-number-cont">120</p></div>     
-                            </div>
                         </div>
                     </div> 
                 </div>
@@ -96,4 +84,16 @@
         </div>
     </section>
 </main>
+
+<script type="text/javascript">
+  $('#contador').countdown('2020/03/25').on('update.countdown', function(event) {
+  var $this = $(this).html(event.strftime('<div class="bg-contador" ><p class="txt-number-cont" id="dia">%D</p> <p class="descricao-number-cont">Dia%!d</p></div> '
+    + '<div class="bloco-sep"><div class="separador"></div><div class="separador"></div></div> '
+    + '<div class="bg-contador" ><p class="txt-number-cont" id="hora">%H</p><p class="descricao-number-cont">Hora%!H</p></div> '
+    + '<div class="bloco-sep"><div class="separador"></div><div class="separador"></div></div> '
+    + '<div class="bg-contador" ><p class="txt-number-cont" id="minuto">%M</p><p class="descricao-number-cont">Minuto%!M</p></div> '
+    + '<div class="bloco-sep"><div class="separador"></div><div class="separador"></div></div> '
+    + '<div class="bg-contador" ><p class="txt-number-cont" id="segundo">%S</p><p class="descricao-number-cont">Segundo%!S</p></div> '));
+});
+</script>
 @endsection
